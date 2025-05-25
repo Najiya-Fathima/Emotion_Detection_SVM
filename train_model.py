@@ -36,7 +36,7 @@ except LookupError:
 
 # //
 # Load dataset
-df = pd.read_csv(r'D:\DUK\SEM 2\Predictive Analytics\Project\Emotion_classification_SVM\emotions-dataset\emotions.csv')
+df = pd.read_csv(r'emotions-dataset\emotions.csv')
 print(df.head())
 print("\nShape of the dataset:", df.shape)
 print("Unique labels: ", df['label'].unique())
